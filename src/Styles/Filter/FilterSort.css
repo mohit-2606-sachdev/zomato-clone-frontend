@@ -1,0 +1,22 @@
+.filter{
+    width: auto;
+}
+
+.filter>label{
+    color:#8C96AB;
+}
+
+
+label{
+    line-height: 10px;
+}
+
+.filter>button{
+    width: 120px;
+    background-color: transparent;
+    color: red;
+}
+
+p{
+    color: #192F60;
+}

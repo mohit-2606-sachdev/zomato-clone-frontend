@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+.heading{
+    color:#192F60;
+    font-style: bold;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.filter_button{
+    height: 2.2em;
+    width: 4em;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+}
+
+.pages ul{
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.pages a{
+    text-decoration: none;
+    border: 1px solid #8C96AB;
+    padding: 0.4em 0.7em;
+    margin-right: 1em;
+    border-radius: 0.6em;
+    color: #8C96AB;
+}
+
+.pages li{
+    display: inline-block;
+}
+
+
+@media only screen and (min-width: 998px) and (max-width: 1200px){
+    .heading{
+        margin-bottom: 0.5em;
+        font-size: 2em;
+    }
+
+    .pages a{
+        padding: 0.4em 0.7em;
+        margin-right: 0.8em;
+        border-radius: 0.6em;
+    }
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 997px){
+    .heading{
+        margin-bottom: 0.5em;
+        font-size: 1.7em;
+    }
+
+    .filter_button{
+        height: 1.8em;
+        width: 4.2em;
+        font-size: 0.7em;
+        letter-spacing: 0.5px;
+        line-height: 0.5em;
+    }
+    
+    .pages a{
+        padding: 0.4em 0.7em;
+        margin-right: 0.7em;
+        border-radius: 0.6em;
+    }
+   
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    
+    .heading{
+        margin-bottom: 0.5em;
+        font-size: 1.7em;
+    }
+
+    .filter_button{
+        height: 1.8em;
+        width: 4.2em;
+        font-size: 0.7em;
+        letter-spacing: 0.5px;
+        line-height: 0.5em;
+    }
+
+    .pages a{
+        padding: 0.2em 0.5em;
+        margin-right: 0.4em;
+        border-radius: 0.6em;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+
+    .heading{
+        margin-bottom: 0.5em;
+        font-size: 1.2em;
+    }
+
+    .filter_button{
+        height: 1.8em;
+        width: 4.2em;
+        font-size: 0.7em;
+        letter-spacing: 0.5px;
+        line-height: 0.5em;
+    }
+    
+    .pages a{
+        padding: 0.1em 0.3em;
+        margin-right: 0.2em;
+        border-radius: 0.6em;
+    }
+}

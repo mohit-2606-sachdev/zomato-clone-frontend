@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.logo2{
+    width: 1.5em;
+    height:  1.5em;
+    font-size: 2.2em;
+    font-weight: 500;
+    color:red;
+    border-radius: 50%;
+    line-height: 1.48em;
+    background-color: white;
+    margin-left: 1em;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navbar{
+    background-color: #CE0505;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    
+    .logo2{
+        width: 1.5em;
+        height:  1.5em;
+        font-size: 2.2em;
+        line-height: 1.48em;
+        margin-left: 1em;
+    }
+
+    .navbar{
+        background-color: #CE0505;
+        padding-left:1em;
+        padding-right:1.5em;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    
+    .logo2{
+        width: 1.5em;
+        height:  1.5em;
+        font-size: 1.8em;
+        line-height: 1.48em;
+        margin-left: 1em;
+    }
+
+    .navbar{
+        background-color: #CE0505;
+        padding-left:1em;
+        padding-right:1.5em;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    .logo2{
+        width: 1.5em;
+        height:  1.5em;
+        font-size: 1.5em;
+        line-height: 1.48em;
+        margin-left: 1em;
+    }
+
+    .navbar{
+        background-color: #CE0505;
+        padding-left:0.5em;
+        padding-right:1em;
+    }
+}

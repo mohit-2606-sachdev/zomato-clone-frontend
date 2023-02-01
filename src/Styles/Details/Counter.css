@@ -1,0 +1,33 @@
+.counter{
+    background-color: lightgray;
+    border: 1px solid black;
+    color: black;
+    height: 2em;
+    line-height: 1em;
+    font-size:0.8em ;
+    width: 6em;
+    margin-top: 6.5em;
+}
+
+.sub_counter{
+    background-color: lightgray;
+    border: 1px solid black;
+    color: black;
+    height: 1.5em;
+    line-height: 0.5em;
+    font-size:0.8em ;
+    width: 2em;
+    margin-top: 6.5em;
+}
+
+@media only screen and (max-width: 600px){
+
+    .counter{
+        font-size:0.65em ;
+    }
+    
+    .sub_counter{
+        font-size:0.68em ;
+    }
+    
+}

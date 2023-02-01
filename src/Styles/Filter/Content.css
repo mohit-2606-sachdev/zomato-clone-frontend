@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.filter_image{
+    height: 8.5em;
+    width:  8.5em;
+    border-radius: 20%;
+}
+
+.restaurant_name{
+    font-size: 2.3em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.restaurant_add1{
+    font-size: 1.3em;
+    line-height: 0.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.restaurant_add2{
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #636F88;
+}
+
+.discrp{
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    
+    .filter_image{
+        height: 7.5em;
+        width:   7.5em;
+        border-radius: 20%;
+    }
+    
+    .restaurant_name{
+        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .restaurant_add1{
+        font-size: 1.2em;
+        line-height: 0.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    .restaurant_add2{
+        font-size: 0.8em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: #636F88;
+    }
+
+    .discrp{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    
+    .filter_image{
+        height: 7em;
+        width:   7em;
+        border-radius: 20%;
+    }
+    
+    .restaurant_name{
+        font-size: 1.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .restaurant_add1{
+        font-size: 1em;
+        line-height: 0.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    .restaurant_add2{
+        font-size: 0.7em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: #636F88;
+    }
+
+    .discrp{
+        font-size: 0.7em;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .filter_image{
+        height: 6em;
+        width:   6em;
+        border-radius: 20%;
+    }
+    
+    .restaurant_name{
+        font-size: 1.2em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .restaurant_add1{
+        font-size: 0.9em;
+        line-height: 0.5em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    
+    .restaurant_add2{
+        font-size: 0.7em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: #636F88;
+    }
+
+    .discrp{
+        font-size: 0.7em;
+    }
+
+}

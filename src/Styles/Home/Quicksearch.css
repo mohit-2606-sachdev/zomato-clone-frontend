@@ -1,0 +1,72 @@
+.heading1{
+    font-size:2.5rem ;
+    color:#192F60;
+}
+
+
+
+.content{
+    height: inherit;
+    width: 75%;
+}
+
+.subheading{
+    font-size: 1.3rem;
+    color:#8C96AB;
+}
+
+.card-title{
+    font-size: 1.4rem;
+    color: #192F60;
+
+}
+
+.card-text{
+    font-size: 1.01rem;
+    color:#8C96AB;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .heading1{
+        font-size:2.2rem ;
+    }
+    
+    
+    .subheading{
+        font-size: 1.1rem;
+    }
+    
+    .card-title{
+        font-size: 1.3rem;
+    }
+    
+    .card-text{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:767px){
+    .heading1{
+        font-size:2rem ;
+    }
+    
+    
+    .subheading{
+        font-size: 1.05rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .heading1{
+        font-size:1.8rem ;
+    }
+    
+    
+    .subheading{
+        font-size: 1rem;
+    }
+}
+
+
+
+                        
