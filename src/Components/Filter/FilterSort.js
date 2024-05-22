@@ -6,7 +6,7 @@ function Filter_sort(props) {
 
   const [location, setLocation] = useState([])
     useEffect(() => {
-        axios.get('https://zomato-clone-backend-a.onrender.com/location').then((data) => {
+        axios.get('https://zomato-clone-backend-7qc2.onrender.com/location').then((data) => {
             setLocation(data.data)
         })
     }, [])

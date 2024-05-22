@@ -11,7 +11,7 @@ function Quicksearch() {
 
     useEffect(() => {
        
-        axios.get('https://zomato-clone-backend-a.onrender.com/mealtype').then((data) => {
+        axios.get('https://zomato-clone-backend-7qc2.onrender.com/mealtype').then((data) => {
             setMealType(data.data)
         })
        

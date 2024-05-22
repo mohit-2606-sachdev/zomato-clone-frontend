@@ -54,7 +54,7 @@ function Filter() {
 
     useEffect(() => {
         
-        axios.post(`https://zomato-clone-backend-a.onrender.com/restaurant/filter/${currentPage}`, {
+        axios.post(`https://zomato-clone-backend-7qc2.onrender.com/restaurant/filter/${currentPage}`, {
             headers: { 'Content-Type': 'application/json' },
             body: filter
         }).then(response => { setRestaurants(response.data.data); setTotalCount(response.data.totalRecords / 2) })

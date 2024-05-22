@@ -10,13 +10,13 @@ function Wallpaper() {
     const [restaurant, setRestaurant] = useState([])
 
     useEffect(() => {
-        axios.get('https://zomato-clone-backend-a.onrender.com/location').then((data) => {
+        axios.get('https://zomato-clone-backend-7qc2.onrender.com/location').then((data) => {
             setLocation(data.data)
         })
     }, [])
 
     const fetchRestaurants = (event) => {
-        axios.get(`https://zomato-clone-backend-a.onrender.com/restaurant/city/${event.target.value}`).then((data) => {
+        axios.get(`https://zomato-clone-backend-7qc2.onrender.com/restaurant/city/${event.target.value}`).then((data) => {
             setRestaurant(data.data)
         })
 

@@ -39,7 +39,7 @@ function Content() {
     let  {rname}  = useParams()
     useEffect(() => {
        
-        axios.get(`https://zomato-clone-backend-a.onrender.com/restaurant/city/name/${rname}`).then((data) => {
+        axios.get(`https://zomato-clone-backend-7qc2.onrender.com/restaurant/city/name/${rname}`).then((data) => {
             setDetails(data.data[0])
         })
 
@@ -49,7 +49,7 @@ function Content() {
 
     // Callback functions with axios
     const viewMenu = () => {
-        axios.get('https://zomato-clone-backend-a.onrender.com/menu/')
+        axios.get('https://zomato-clone-backend-7qc2.onrender.com/menu/')
             .then(data => {
                 setMenu(data.data)
             })
@@ -59,7 +59,7 @@ function Content() {
     const openRazorpayWindow = async (amount) => {
 
         let orderdata;
-        orderdata = await axios.post('https://zomato-clone-backend-a.onrender.com/payment/order', {
+        orderdata = await axios.post('https://zomato-clone-backend-7qc2.onrender.com/payment/order', {
             headers: { 'Content-Type': 'application/json' },
             body: amount
         })
@@ -79,7 +79,7 @@ function Content() {
             },
             handler: function (response) {
 
-                axios.post('https://zomato-clone-backend-a.onrender.com/payment/save', {
+                axios.post('https://zomato-clone-backend-7qc2.onrender.com/payment/save', {
                     headers: { 'Content-Type': 'application/json' },
                     body: {response,amount}
                 }).then(data=>console.log(data.data))
